@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Manrope-Semibold';
+    src: url('fonts/Manrope-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Manrope-Regular';
+    src: url('fonts/Manrope-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Manrope-Medium';
+    src: url('fonts/Manrope-Medium.woff') format('woff');
+}
+
+body{
+    width:100%;
+    font-size: 16px;
+    margin:0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Manrope-Semibold';
+    font-size: 2em;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+h2{
+    font-family: 'Manrope-Regular';
+    font-size: 1.8em;
+}
+
+h3{
+    font-family: 'Manrope-Medium';
+    font-size: 1.5em;
+    letter-spacing: 0.02em;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+h4{
+    font-family: 'Manrope-Medium';
+    font-size: 1.3em;
+}
+
+h5{
+    font-family: 'Manrope-Regular';
+    font-size: 1.3em;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+h6{
+    font-family: 'Manrope-Semibold';
+    font-size: 1em;
+}
+
+p{
+    font-family: 'Manrope-Regular';
+    font-size: 1em;
+}
+:root{
+    /*Colors*/
+    --orange-soda: #F06449;
+    --off-white: #EDE6E3;
+    --white: #FFFFFF;
+    --gray: #DADAD9;
+    --black-olive: #36382E;
+    --majorella-blue: #623CEA;
+    
+    /*Spacing*/
+    --padding-none: 0px 0px;
+    --padding-xs: 8px 8px;
+    --padding-s: 16px 16px;
+    --padding-m: 24px 24px;
+    --padding-l: 32px 32px;
+    --padding-xl: 40px 40px;
+    --padding-xxl: 48px 48px;
+
+    --margin-none: 0px 0px;
+    --margin-xs: 8px 8px;
+    --margin-s: 16px 16px;
+    --margin-m: 24px 24px;
+    --margin-l: 32px 32px;
+    --margin-xl: 40px 40px;
+    --margin-xxl: 48px 48px;
+}
+
+
+.DS__container{
+    max-width:1080px;
+    padding: 0px 16px;
+    margin: 0 auto;
+}
+
+.DS__colors__brand{
+    border: 2px solid var(--black-olive);
+    border-radius: 2em;
+    padding: 2em 2em;
+}
+.DS__colors--primary{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 1.5em;
+}
+
+.DS__box{
+    width: 250px;
+    height: 250px;
+    color:white;
+    padding:var(--padding-m);
+    margin-top: 2em;
+    font-family: 'Manrope-Semibold';
+}
+
+.DS__box--orange-soda{
+ background-color:var(--orange-soda);   
+}
+
+.DS__box--black-olive{
+    background-color: var(--black-olive);
+}
+
+.DS__box--majorella-blue{
+    background-color: var(--majorella-blue);
+}
